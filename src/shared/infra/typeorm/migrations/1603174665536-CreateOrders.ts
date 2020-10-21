@@ -42,7 +42,7 @@ export default class CreateOrders1603174665536 implements MigrationInterface {
       new TableForeignKey({
         columnNames: ['costumer_id'],
         referencedColumnNames: ['id'],
-        referencedTableName: 'costumers',
+        referencedTableName: 'customers',
         onDelete: 'CASCADE',
       }),
     );
